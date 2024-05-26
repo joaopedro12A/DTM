@@ -9,20 +9,33 @@ main {
     max-width: 1440px;
 }
 
-.main_info {
-    width: 100%;
-    max-width: 570px;
-}
+
 
 .main_info p {
-    font-size: 20px;
+    font-size: 30px;
     margin: 20px 0 28px;
 }
 
 
-.main_info div {
-    display: flex;
-    column-gap: 32px;    
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    unicode-bidi: isolate;
+}
+
+th, td {
+    border-bottom: 1px solid #e3ddd7;
+    width: 100%;
+}
+p, li, th, td {
+    font-family: 'Outfit', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .main_info div a, .main_info div button {
@@ -56,6 +69,10 @@ main {
     letter-spacing: 0.3px;
 
     transform: skew(0deg);
+}
+
+table {
+    text-align: center;
 }
 
 
