@@ -1,0 +1,78 @@
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    width: 100%;
+    max-width: 1440px;
+}
+
+
+
+.main_info p {
+    font-size: 30px;
+    margin: 20px 0 28px;
+}
+
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    unicode-bidi: isolate;
+}
+
+th, td {
+    border-bottom: 1px solid #e3ddd7;
+    width: 100%;
+}
+p, li, th, td {
+    font-family: 'Outfit', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_info div a, .main_info div button {
+     width: 100%;
+     padding: 10px 0;
+     border-radius: 20px;
+
+     font-size: 16px;
+     font-weight: 600;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 0.3px;
+
+     transform: skew(0deg);
+}
+
+.main_info div a {
+    background: var(--limao);
+}
+
+.main_info div button {
+   background-color: var(--limao);
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 20px;
+
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+
+    transform: skew(0deg);
+}
+
+table {
+    text-align: center;
+}
+
+
